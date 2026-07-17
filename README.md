@@ -11,6 +11,13 @@ From a [near] empty repo, run claude and paste in NVIDIA's prompt from https://d
 sudo apt-get install -y sshfs
 ```
 
+- Setup mount sharing
+```
+sudo sed -i 's/^#user_allow_other/user_allow_other/' /etc/fuse.conf
+sudo apt-get install -y bindfs
+```
+
+
 ### Mount a sandbox path on the host
 
 To edit or test sandbox files (e.g. loading a browser extension "unpacked" in Brave/Chrome) with a live view backed by the sandbox filesystem:
