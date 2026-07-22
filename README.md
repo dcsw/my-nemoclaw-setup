@@ -26,3 +26,26 @@ mkdir -p ~/mnt/<mount-name>
 nemoclaw <sandbox-name> share mount <sandbox-path> ~/mnt/<mount-name>
 ```
 Changes made inside the sandbox appear at the mount point instantly, and vice versa.
+
+
+# Then I also....
+
+## Added GPU passthrough
+
+```
+# 1. Add the NVIDIA repository and install the toolkit
+curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg
+curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list | sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#' | sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
+sudo apt-get update
+sudo apt-get install -y nvidia-container-toolkit
+
+# 2. Generate the CDI specifications (Critical for WSL2)
+sudo nvidia-ctk cdi generate --output=/etc/cdi/nvidia.yaml
+
+# 3. Verify the GPU is visible to containers
+nvidia-ctk cdi list
+# You should see 'nvidia.com/gpu' entries listed.
+
+# 4. Resume the onboarding
+nemoclaw onboard --resume   
+```
