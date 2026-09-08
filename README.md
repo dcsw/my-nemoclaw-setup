@@ -46,6 +46,15 @@ sudo nvidia-ctk cdi generate --output=/etc/cdi/nvidia.yaml
 nvidia-ctk cdi list
 # You should see 'nvidia.com/gpu' entries listed.
 
-# 4. Resume the onboarding
+# Extra. Resume the onboarding if/as necessary when doing these steps manually....
 nemoclaw onboard --resume   
 ```
+
+### To rebuild the sandbox:
+```
+NEMOCLAW_NON_INTERACTIVE=1 NEMOCLAW_PROVIDER=nvidia-prod NEMOCLAW_MODEL=nvidia/nemotron-3-super-120b-a12b NEMOCLAW_ACCEPT_THIRD_PARTY_SOFTWARE=1 NEMOCLAW_POLICY_TIER=restricted nemoclaw appointment-minder rebuild --dcode-auto-approval thread-opt-in --yes
+```
+
+## Share the folder
+```
+nemoclaw share mount tmp /sandbox/example

@@ -4,3 +4,9 @@
 
 # LangGraph
 .langgraph_api/
+
+# env file
+.env
+
+# sandbox stuff
+tmp/
