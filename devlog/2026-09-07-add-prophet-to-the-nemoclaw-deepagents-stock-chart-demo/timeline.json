@@ -1,0 +1,113 @@
+{
+  "title": "Add prophet to the nemoclaw deepagents stock chart demo",
+  "goal": "We have prophet-based stock predictions on AAPL based soley on daily closing price and volume over time. The graph shows prophet predictions from 1 month ago at each X position on the graph using prophet on the 36 months prior to then",
+  "startedAt": "2026-09-08T00:40:14.090Z",
+  "workspace": "/home/dciri/my-nemoclaw-setup",
+  "entries": [
+    {
+      "id": "7d2ia6pa",
+      "at": "2026-09-08T00:40:14.105Z",
+      "kind": "start",
+      "title": "Started: Add prophet to the nemoclaw deepagents stock chart demo",
+      "body": "**Goal.** We have prophet-based stock predictions on AAPL based soley on daily closing price and volume over time. The graph shows prophet predictions from 1 month ago at each X position on the graph using prophet on the 36 months prior to then"
+    },
+    {
+      "id": "l1fgoj6d",
+      "at": "2026-09-08T00:43:27.605Z",
+      "context": "while looking at `tmp/fetch_stock.py`",
+      "kind": "shot",
+      "title": "Reconnecting to the sandbox from where we left off.",
+      "image": "assets/2026-09-07T20-42-54-shot.png",
+      "caption": "Reconnecting to the sandbox from where we left off."
+    },
+    {
+      "id": "2zx4q40y",
+      "at": "2026-09-08T00:44:20.401Z",
+      "context": "while looking at `tmp/fetch_stock.py`",
+      "kind": "shot",
+      "title": "Starting dcode in the demo's directory.",
+      "image": "assets/2026-09-07T20-43-55-shot.png",
+      "caption": "Starting dcode in the demo's directory."
+    },
+    {
+      "id": "fex1vdqk",
+      "at": "2026-09-08T00:53:14.571Z",
+      "context": "while looking at `tmp/fetch_stock.py`",
+      "kind": "shot",
+      "title": "Tell dcode to run a workflow adding a prophet prediction line to our graph.",
+      "image": "assets/2026-09-07T20-50-58-shot.png",
+      "caption": "Tell dcode to run a workflow adding a prophet prediction line to our graph."
+    },
+    {
+      "id": "5j9ejgeu",
+      "at": "2026-09-08T00:53:37.589Z",
+      "context": "while looking at `tmp/fetch_stock.py`",
+      "kind": "shot",
+      "title": "Accept the criteria (YOLO).",
+      "image": "assets/2026-09-07T20-53-23-shot.png",
+      "caption": "Accept the criteria (YOLO)."
+    },
+    {
+      "id": "nmtbu4zo",
+      "at": "2026-09-08T00:54:06.433Z",
+      "context": "while looking at `tmp/fetch_stock.py`",
+      "kind": "shot",
+      "title": "Let 'er rip!",
+      "image": "assets/2026-09-07T20-53-56-shot.png",
+      "caption": "Let 'er rip!"
+    },
+    {
+      "id": "se9mbyo7",
+      "at": "2026-09-08T01:20:36.887Z",
+      "context": "while looking at `tmp/fetch_stock.py`",
+      "kind": "shot",
+      "title": "dcode flaked out -- tell it to continue",
+      "image": "assets/2026-09-07T21-20-14-shot.png",
+      "caption": "dcode flaked out -- tell it to continue"
+    },
+    {
+      "id": "0y05gkzi",
+      "at": "2026-09-08T02:18:37.089Z",
+      "context": "while looking at `tmp/generate_predictions.py`",
+      "kind": "shot",
+      "title": "Commit and push updates, and then check them out",
+      "image": "assets/2026-09-07T22-18-13-shot.png",
+      "caption": "Commit and push updates, and then check them out"
+    },
+    {
+      "id": "1heoifxp",
+      "at": "2026-09-08T02:21:52.511Z",
+      "context": "while looking at `tmp/generate_predictions.py`",
+      "kind": "shot",
+      "title": "Let's make the graph zoomable.",
+      "image": "assets/2026-09-07T22-21-38-shot.png",
+      "caption": "Let's make the graph zoomable."
+    },
+    {
+      "id": "ktno4kf7",
+      "at": "2026-09-08T22:15:37.692Z",
+      "context": "while looking at `.gitignore`",
+      "kind": "shot",
+      "title": "Upgrading to a larger model sandbox.",
+      "image": "assets/2026-09-08T18-15-16-shot.png",
+      "caption": "Upgrading to a larger model sandbox."
+    },
+    {
+      "id": "z7tul0sb",
+      "at": "2026-09-10T03:17:28.881Z",
+      "context": "while looking at `devlog/2026-09-07-add-prophet-to-the-nemoclaw-deepagents-stock-chart-demo/article.md`",
+      "kind": "shot",
+      "title": "Get prophet across all time",
+      "image": "assets/2026-09-09T23-16-39-shot.png",
+      "caption": "Get prophet across all time"
+    },
+    {
+      "id": "arrhmjef",
+      "at": "2026-09-10T03:22:23.558Z",
+      "kind": "shot",
+      "title": "And here's Prophet!",
+      "image": "assets/2026-09-09T23-21-45-clipboard.png",
+      "caption": "And here's Prophet!"
+    }
+  ]
+}
