@@ -2,7 +2,8 @@
 
 set -euo pipefail
 
-export NEMOCLAW_MODEL=${1:-nvidia/nemotron-3-super-120b-a12b}
+# export NEMOCLAW_MODEL=${1:-nvidia/nemotron-3-super-120b-a12b}?
+export NEMOCLAW_MODEL=${1:-nvidia/nemotron-3-ultra-550b-a55b}
 echo Changing model to ${NEMOCLAW_MODEL} 
 
 SANDBOX_NAME="${NEMOCLAW_SANDBOX_NAME:-my-deepagents}"
