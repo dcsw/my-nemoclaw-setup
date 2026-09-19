@@ -7,6 +7,13 @@ set -euo pipefail
 
 SANDBOX_NAME="${NEMOCLAW_SANDBOX_NAME:-my-deepagents}"
 SKIP_GPU="${SKIP_GPU:-0}"
+# NEMOCLAW_MODEL=${1:-nvidia/nemotron-3-super-120b-a12b}
+# NEMOCLAW_MODEL=${1:-nvidia/nemotron-3-ultra-550b-a55b}
+# NEMOCLAW_MODEL=${1:-z-ai/glm-5.3}
+# NEMOCLAW_MODEL=${1:-moonshotai/kimi-k3}
+# NEMOCLAW_MODEL=${1:-mistralai/mistral-nemotron}
+NEMOCLAW_MODEL=${1:-google/gemma-4-31b-it}
+
 
 log() { printf '\n\033[1;34m==>\033[0m %s\n' "$1"; }
 
@@ -68,7 +75,7 @@ log "Running nemoclaw onboarding # (resume in case GPU setup above was needed fi
 NEMOCLAW_NON_INTERACTIVE=1 \
   NEMOCLAW_AGENT=langchain-deepagents-code \
   NEMOCLAW_PROVIDER=build \
-  NEMOCLAW_MODEL=nvidia/nemotron-3-super-120b-a12b \
+  NEMOCLAW_MODEL=$NEMOCLAW_MODEL \
   NEMOCLAW_ACCEPT_THIRD_PARTY_SOFTWARE=1 \
   NEMOCLAW_POLICY_TIER=restricted \
   nemoclaw onboard --yes --name $SANDBOX_NAME
@@ -78,7 +85,7 @@ log "Rebuilding sandbox: $SANDBOX_NAME"
 NEMOCLAW_NON_INTERACTIVE=1 \
   NEMOCLAW_AGENT=langchain-deepagents-code \
   NEMOCLAW_PROVIDER=nvidia-prod \
-  NEMOCLAW_MODEL=nvidia/nemotron-3-super-120b-a12b \
+  NEMOCLAW_MODEL=$NEMOCLAW_MODEL \
   NEMOCLAW_ACCEPT_THIRD_PARTY_SOFTWARE=1 \
   NEMOCLAW_POLICY_TIER=restricted \
   nemoclaw "$SANDBOX_NAME" rebuild --dcode-auto-approval thread-opt-in --yes
