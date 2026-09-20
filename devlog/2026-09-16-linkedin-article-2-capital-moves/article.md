@@ -90,4 +90,8 @@ tags: []
 
 ![Nailed it -- BAM!](assets/2026-09-19T01-23-43-nailed-it-bam.png)
 
+### 16:23 · 📸 xxxx
+
+![xxxx](assets/2026-09-20T16-22-55-region.png)
+
 <!-- devlog:next -->
