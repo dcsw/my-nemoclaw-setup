@@ -42,7 +42,7 @@ Create a second graph showing money moving in and out of the security.
 ### Nailed it -- BAM!
 **And there it is -- 2 synchonized charts with the second showing Captital Moves.**
 
-![And there it is -- 2 synchonized charts with the second showing Captital Moves.](assets/2026-09-19T01-21-00-region.png)
+![And there it is -- 2 synchonized charts with the second showing Captital Moves.](assets/2026-09-19T20-51-41-region.png)
 
 ## Takeaways
 

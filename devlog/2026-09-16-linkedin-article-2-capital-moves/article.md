@@ -82,12 +82,13 @@ tags: []
 
 <sub>while looking at `devlog/2026-09-16-linkedin-article-2-capital-moves/article.md`</sub>
 
-![And there it is! 2 synchonized charts with the second showing Captital Moves.](assets/2026-09-19T01-21-00-region.png)
+![And there it is! 2 synchonized charts with the second showing Captital Moves.](assets/2026-09-19T20-51-41-region.png)
 
 ### 01:23 · 📌 Nailed it -- BAM!
 
 <sub>Since the last entry: edits saved in setup.sh, .bashrc, nim-models.json, github-sandbox-pat +1 more</sub>
 
 ![Nailed it -- BAM!](assets/2026-09-19T01-23-43-nailed-it-bam.png)
+
 
 <!-- devlog:next -->
