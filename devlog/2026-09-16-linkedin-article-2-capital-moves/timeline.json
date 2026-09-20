@@ -1,0 +1,128 @@
+{
+  "title": "LinkedIn Article 2 -- Capital Moves",
+  "goal": "We have a second graph showing money moving in and out of the security.",
+  "startedAt": "2026-09-17T01:46:55.150Z",
+  "workspace": "/home/dciri/my-nemoclaw-setup",
+  "entries": [
+    {
+      "id": "h9qh9oou",
+      "at": "2026-09-17T01:46:55.169Z",
+      "kind": "start",
+      "title": "Started: LinkedIn Article 2 -- Capital Moves",
+      "body": "**Goal.** We have a second graph showing money moving in and out of the security."
+    },
+    {
+      "id": "5nh3txye",
+      "at": "2026-09-17T01:47:30.735Z",
+      "context": "while looking at `devlog/2026-09-16-linkedin-article-2-capital-moves/article.md`",
+      "kind": "shot",
+      "title": "Screenshot",
+      "image": "assets/2026-09-16T21-47-24-shot.png"
+    },
+    {
+      "id": "uqhz9d1t",
+      "at": "2026-09-17T01:47:34.837Z",
+      "context": "while looking at `devlog/2026-09-16-linkedin-article-2-capital-moves/article.md`",
+      "kind": "shot",
+      "title": "Screenshot",
+      "image": "assets/2026-09-16T21-47-29-shot.png"
+    },
+    {
+      "id": "8vjb7tmi",
+      "at": "2026-09-17T01:47:58.891Z",
+      "context": "while looking at `devlog/2026-09-16-linkedin-article-2-capital-moves/article.md`",
+      "kind": "shot",
+      "title": "Start dcode.",
+      "image": "assets/2026-09-16T21-47-39-shot.png",
+      "caption": "Start dcode."
+    },
+    {
+      "id": "8s8nbg7j",
+      "at": "2026-09-17T01:50:04.511Z",
+      "context": "while looking at `devlog/2026-09-16-linkedin-article-2-capital-moves/article.md`",
+      "kind": "shot",
+      "title": "Use /goal and specify our Captital Moves graph. Define Capital moves as volume times stock price at any point in time.",
+      "image": "assets/2026-09-16T21-49-22-shot.png",
+      "caption": "Use /goal and specify our Captital Moves graph. Define Capital moves as volume times stock price at any point in time."
+    },
+    {
+      "id": "enqso4rh",
+      "at": "2026-09-17T02:30:56.204Z",
+      "context": "while looking at `setup.sh`",
+      "kind": "shot",
+      "title": "Accept the generated criteria.",
+      "image": "assets/2026-09-16T22-30-33-shot.png",
+      "caption": "Accept the generated criteria."
+    },
+    {
+      "id": "ph7yrmn2",
+      "at": "2026-09-17T02:31:39.651Z",
+      "context": "while looking at `setup.sh`",
+      "kind": "shot",
+      "title": "If your connection drops or otherwise glitches, just continue....",
+      "image": "assets/2026-09-16T22-31-18-shot.png",
+      "caption": "If your connection drops or otherwise glitches, just continue...."
+    },
+    {
+      "id": "no6owqo5",
+      "at": "2026-09-17T02:38:20.370Z",
+      "context": "while looking at `setup.sh`",
+      "kind": "shot",
+      "title": "Too many transient errors?",
+      "image": "assets/2026-09-16T22-38-03-shot.png",
+      "caption": "Too many transient errors?"
+    },
+    {
+      "id": "o2crbzv4",
+      "at": "2026-09-17T02:39:09.472Z",
+      "context": "while looking at `setup.sh`",
+      "kind": "shot",
+      "title": "Drop to the command line and have dcode run in headless retry mode.",
+      "image": "assets/2026-09-16T22-38-37-shot.png",
+      "caption": "Drop to the command line and have dcode run in headless retry mode."
+    },
+    {
+      "id": "a2js4zvw",
+      "at": "2026-09-18T01:49:29.563Z",
+      "context": "while looking at `setup.sh`",
+      "kind": "shot",
+      "title": "Screenshot",
+      "image": "assets/2026-09-17T21-49-04-shot.png"
+    },
+    {
+      "id": "zd7w35tt",
+      "at": "2026-09-19T05:22:26.155Z",
+      "context": "while looking at `devlog/2026-09-16-linkedin-article-2-capital-moves/article.md`",
+      "kind": "shot",
+      "title": "Screenshot",
+      "image": "assets/2026-09-19T01-22-17-region.png"
+    },
+    {
+      "id": "hick7711",
+      "at": "2026-09-19T05:23:13.809Z",
+      "context": "while looking at `devlog/2026-09-16-linkedin-article-2-capital-moves/article.md`",
+      "kind": "shot",
+      "title": "And there it is! 2 synchonized charts with the second showing Captital Moves.",
+      "image": "assets/2026-09-19T01-21-00-region.png",
+      "caption": "And there it is! 2 synchonized charts with the second showing Captital Moves."
+    },
+    {
+      "id": "d5tnmft5",
+      "at": "2026-09-19T05:23:44.972Z",
+      "context": "Since the last entry: edits saved in setup.sh, .bashrc, nim-models.json, github-sandbox-pat +1 more",
+      "kind": "milestone",
+      "title": "Nailed it -- BAM!",
+      "image": "assets/2026-09-19T01-23-43-nailed-it-bam.png",
+      "caption": "Nailed it -- BAM!"
+    },
+    {
+      "id": "ep4mxh9f",
+      "at": "2026-09-20T00:52:07.807Z",
+      "context": "while looking at `devlog/2026-09-16-linkedin-article-2-capital-moves/article-draft.md`",
+      "kind": "shot",
+      "title": "ffff",
+      "image": "assets/2026-09-19T20-51-41-region.png",
+      "caption": "ffff"
+    }
+  ]
+}
