@@ -71,19 +71,12 @@ else
     bash -s -- --non-interactive
 fi
 
-# 1. Create (or confirm) the provider
-# openshell provider create --name nvidia-prod --type nvidia
-
+# 3.1. Create (or confirm) the default gateway for the sandbox. This is required for the sandbox to access the inference route.
 if [ "$(openshell gateway list | grep 'Register')" == "" ]; then
   echo openshell gateway already exists, skipping creation
 else
   openshell gateway add https://127.0.0.1:17670 --local --name openshell
 fi
-
-# # 2. Set the inference route to the exact model your sandbox expects
-# openshell inference set \
-#   --provider nvidia-prod \
-#   --model $NEMOCLAW_MODEL
 
 ### 4. Onboard #######################################################
 log "Running nemoclaw onboarding # (resume in case GPU setup above was needed first)"
