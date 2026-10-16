@@ -1,7 +1,7 @@
 ---
 title: "LinkedIn Article 2 -- Capital Moves"
 date: 2026-09-17
-status: draft
+status: complete
 tags: []
 ---
 
@@ -93,5 +93,11 @@ tags: []
 ### 16:23 · 📸 xxxx
 
 ![xxxx](assets/2026-09-20T16-22-55-region.png)
+
+### 19:22 · 🏁 Session ended
+
+<sub>Since the last entry: edits saved in README.md</sub>
+
+573 h 35 min · 0 commits · 0 agent milestones · 14 images
 
 <!-- devlog:next -->

@@ -25,7 +25,7 @@ log "Running nemoclaw onboarding # (resume in case GPU setup above was needed fi
 NEMOCLAW_NON_INTERACTIVE=1 \
   NEMOCLAW_AGENT=langchain-deepagents-code \
   NEMOCLAW_PROVIDER=build \
-  NEMOCLAW_MODEL=${NEMOCLAW_MODEL:-nvidia/nemotron-3-super-120b-a12b} \
+  NEMOCLAW_MODEL=${NEMOCLAW_MODEL} \
   NEMOCLAW_ACCEPT_THIRD_PARTY_SOFTWARE=1 \
   NEMOCLAW_POLICY_TIER=restricted \
   nemoclaw onboard --yes --name $SANDBOX_NAME
@@ -35,7 +35,7 @@ log "Rebuilding sandbox: $SANDBOX_NAME"
 NEMOCLAW_NON_INTERACTIVE=1 \
   NEMOCLAW_AGENT=langchain-deepagents-code \
   NEMOCLAW_PROVIDER=nvidia-prod \
-  NEMOCLAW_MODEL="${NEMOCLAW_MODEL:-nvidia/nemotron-3-super-120b-a12b}" \
+  NEMOCLAW_MODEL="${NEMOCLAW_MODEL}" \
   NEMOCLAW_ACCEPT_THIRD_PARTY_SOFTWARE=1 \
   NEMOCLAW_POLICY_TIER=restricted \
   nemoclaw "$SANDBOX_NAME" rebuild --dcode-auto-approval thread-opt-in --yes
