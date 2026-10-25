@@ -1,0 +1,100 @@
+{
+  "title": "Article 3: Go Multi-Stock!",
+  "goal": "Extend our demo to multiple stocks",
+  "startedAt": "2026-10-16T04:06:27.601Z",
+  "workspace": "/home/dciri/my-nemoclaw-setup",
+  "entries": [
+    {
+      "id": "28n3c5ef",
+      "at": "2026-10-16T04:06:27.625Z",
+      "kind": "start",
+      "title": "Started: Article 3: Go Multi-Stock!",
+      "body": "**Goal.** Extend our demo to multiple stocks"
+    },
+    {
+      "id": "3l3bh3cc",
+      "at": "2026-10-16T04:07:08.243Z",
+      "context": "while looking at `devlog/2026-10-16-article-3-go-multi-stock/article.md`",
+      "kind": "shot",
+      "title": "Fire up decode",
+      "image": "assets/2026-10-16T00-07-00-shot.png",
+      "caption": "Fire up decode"
+    },
+    {
+      "id": "b9f4ov3y",
+      "at": "2026-10-16T04:10:12.900Z",
+      "context": "while looking at `devlog/2026-10-16-article-3-go-multi-stock/article.md`",
+      "kind": "shot",
+      "title": "Set our goal",
+      "image": "assets/2026-10-16T00-10-04-shot.png",
+      "caption": "Set our goal"
+    },
+    {
+      "id": "gfve74ik",
+      "at": "2026-10-16T04:27:40.947Z",
+      "context": "while looking at `tmp/nemoclaw-deepagents-stock-demo/multi-stock.html`",
+      "kind": "shot",
+      "title": "Accept or auto accept plans and changes",
+      "image": "assets/2026-10-16T00-27-21-shot.png",
+      "caption": "Accept or auto accept plans and changes"
+    },
+    {
+      "id": "rmnfgmtx",
+      "at": "2026-10-16T04:29:07.645Z",
+      "context": "while looking at `tmp/nemoclaw-deepagents-stock-demo/multi-stock.html`",
+      "kind": "shot",
+      "title": "And here are our results! Notice the dropdown in the upper left.",
+      "image": "assets/2026-10-16T00-28-24-region.png",
+      "caption": "And here are our results! Notice the dropdown in the upper left."
+    },
+    {
+      "id": "91xd89qw",
+      "at": "2026-10-16T04:29:54.404Z",
+      "context": "while looking at `tmp/nemoclaw-deepagents-stock-demo/multi-stock.html`",
+      "kind": "shot",
+      "title": "Screenshot",
+      "image": "assets/2026-10-16T00-29-22-region.png"
+    },
+    {
+      "id": "wduak24x",
+      "at": "2026-10-16T04:30:04.372Z",
+      "context": "while looking at `tmp/nemoclaw-deepagents-stock-demo/multi-stock.html`",
+      "kind": "shot",
+      "title": "Screenshot",
+      "image": "assets/2026-10-16T00-29-40-region.png"
+    },
+    {
+      "id": "ernqxgzh",
+      "at": "2026-10-16T04:30:49.719Z",
+      "context": "while looking at `tmp/nemoclaw-deepagents-stock-demo/multi-stock.html`",
+      "kind": "shot",
+      "title": "Screenshot",
+      "image": "assets/2026-10-16T00-30-10-region.png"
+    },
+    {
+      "id": "tkhwrcde",
+      "at": "2026-10-16T04:30:49.825Z",
+      "context": "while looking at `tmp/nemoclaw-deepagents-stock-demo/multi-stock.html`",
+      "kind": "shot",
+      "title": "Screenshot",
+      "image": "assets/2026-10-16T00-30-21-region.png"
+    },
+    {
+      "id": "jmrn35fh",
+      "at": "2026-10-16T04:31:25.941Z",
+      "context": "while looking at `tmp/nemoclaw-deepagents-stock-demo/multi-stock.html`",
+      "kind": "shot",
+      "title": "Choose another stock in the dropdown, and up comes the new data.",
+      "image": "assets/2026-10-16T00-30-39-region.png",
+      "caption": "Choose another stock in the dropdown, and up comes the new data."
+    },
+    {
+      "id": "eziyeig9",
+      "at": "2026-10-16T04:32:46.156Z",
+      "kind": "stop",
+      "title": "Session ended",
+      "body": "26 min · 0 commits · 0 agent milestones · 9 images"
+    }
+  ],
+  "endedAt": "2026-10-16T04:32:46.162Z"
+}
