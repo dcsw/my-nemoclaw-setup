@@ -1,3 +1,5 @@
+![NemoClaw Round 3: Let's Go Multi-Stock!](assets/banner.png)
+
 # NemoClaw Round 3: Let's Go Multi-Stock!
 
 ## Adding More Stocks to our Demo
