@@ -6,7 +6,7 @@
 
 In this article, we'll use Nemoclaw and nemotron-3.6-super-v1-120b-a12b on NIM to xtend our demo to show multiple stocks. Here's how it all comes out: [demo link.](https://dcsw.github.io/nemoclaw-deepagents-stock-demo/multi-stock.html)
 
-Let's go!
+## Let's go!
 
 ### Fire up decode in a Nemoclaw Session
 
@@ -27,7 +27,7 @@ Notice the dropdown in the upper left.
 ![And here are our results! Notice the dropdown in the upper left.](assets/2026-10-16T07-58-00-region.png)
 
 Choose another stock in the dropdown, and up comes the new data.
-Zoom and popups i
+Zoom and popups still work, too. Try them out!
 
 ![Choose another stock in the dropdown, and up comes the new data.](assets/2026-10-16T08-05-34-region.png)
 
@@ -48,6 +48,11 @@ Adding dark mode is just as easy.
 We'll skip the details, but suffice it to say that a slash goal command inside decode does the trick.
 
 ![Dark Mode!](assets/2026-10-16T12-17-49-region.png)
+
+## Give it a try!
+
+You can try out these updates out here on our [demo page](https://dcsw.github.io/nemoclaw-deepagents-stock-demo/multi-stock.html).
+The source code is also available in our [github demo repo](https://github.com/dcsw/nemoclaw-deepagents-stock-demo).
 
 ## Takeaways
 
