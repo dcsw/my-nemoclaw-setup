@@ -4,13 +4,15 @@
 
 ## Adding More Stocks to our Demo
 
-In this article, we'll use Nemoclaw and nemotron-3.6-super-v1-120b-a12b on NIM to xtend our demo to show multiple stocks. Here's how it all comes out: [demo link.](https://dcsw.github.io/nemoclaw-deepagents-stock-demo/multi-stock.html)
+In this article, we'll use Nemoclaw and nemotron-3.6-super-v1-120b-a12b on NIM to xtend our demo to show multiple stocks. 
+
+Here's how it all comes out: [demo link.](https://dcsw.github.io/nemoclaw-deepagents-stock-demo/multi-stock.html)
 
 ## Let's go!
 
-### Fire up decode in a Nemoclaw Session
+### Fire up dcode in a Nemoclaw Session
 
-![Fire up decode](assets/2026-10-16T00-07-00-shot.png)
+![Fire up dcode](assets/2026-10-16T00-07-00-shot.png)
 
 ### Set our goal
 
@@ -20,14 +22,13 @@ In this article, we'll use Nemoclaw and nemotron-3.6-super-v1-120b-a12b on NIM t
 
 ![Accept or auto accept plans and changes](assets/2026-10-16T00-27-21-shot.png)
 
-## And out come our results! 
+## And our results come right out! 
 
 Notice the dropdown in the upper left.
 
 ![And here are our results! Notice the dropdown in the upper left.](assets/2026-10-16T07-58-00-region.png)
 
-Choose another stock in the dropdown, and up comes the new data.
-Zoom and popups still work, too. Try them out!
+Choose another stock in the dropdown, and watch the chart immediately update. Zoom and popups still work, too. Try them out!
 
 ![Choose another stock in the dropdown, and up comes the new data.](assets/2026-10-16T08-05-34-region.png)
 
@@ -45,7 +46,7 @@ Let dcode have at it, and a few moments later, here's what we get.
 #### Dark Mode Anyone?
 
 Adding dark mode is just as easy.
-We'll skip the details, but suffice it to say that a slash goal command inside decode does the trick.
+We'll skip the details, but suffice it to say that a slash goal command inside dcode does the trick.
 
 ![Dark Mode!](assets/2026-10-16T12-17-49-region.png)
 
